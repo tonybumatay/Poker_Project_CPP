@@ -1,35 +1,5 @@
-Lab number: 4
-Graded by: Joseph Kwon
-Score: 68 / 100 
-Comments:
-
--1 h:\cse332\sp15_lab4\sp15_lab4\hand.cpp(102): warning C4018: '<' : signed/unsigned mismatch
--1 h:\cse332\sp15_lab4\sp15_lab4\deck.cpp(40): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
--2 document tests in readme
--2 minimal comments (say what unobvious parts of your code is doing in FiveCardDraw.cpp, Game.cpp, and SevenCardStud.cpp)
--0 join == false in line 146 in Game.cpp can be just !join
--3 don't harcode constants (search //JK to find where, only marked 3)
--3 fails obvious case where there's only two players with the same name
--3 accepts same player name and game doesn't end
--1 didn't fix accepting same player from lab 3
--0 usage message implies only game is FiveCardDraw
--1 cosmetic issue: not displaying * for other people's facedowns
--3 betting something then having to call subtracts too much (subtracts entire call cost, not call - what they already bet)
--3 raising doesn't subtract at all sometimes adds?
--1 folding with only 2 players causes the folded player to have lose 2 hands, not 1 (may happen with more people, only tested for 2)
--3 doesn't save correctly if all but one player leaves (the player that didn't leave doesn't get saved although game ends) thus fails to load as well
--5 infinite loop when player leaves and comes back, first player bets, then rest folds. Constantly prints out visible hands 
-
---------------------------------------------
-
-
-========================================================================
-
-    CONSOLE APPLICATION : Lab3 Project Overview
-
-========================================================================
-
-ANTHONY (TONY) BUMATAY, HANNAH MEHRLE, IAN BERNSTEIN LAB 3
+#Play Seven Card Stud or Five Card Draw
+This project was completed as part of Wash U's Object Oriented Programming course in collaboration with Ian Bernstein and Hannah Merhrle
 
 Files: 
 
